@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21021D521BC5013006DDFD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21021D421BC5013006DDFD1 /* Constants.swift */; };
+		A22B0D94215045D700EB6533 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A22B0D93215045D700EB6533 /* GameOverScene.sks */; };
+		A22B0D962150461B00EB6533 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B0D952150461B00EB6533 /* GameOverScene.swift */; };
+		A234772B214576CB00877324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234772A214576CA00877324 /* AppDelegate.swift */; };
+		A2347733214576CB00877324 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2347732214576CB00877324 /* GameViewController.swift */; };
+		A2347736214576CB00877324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2347734214576CB00877324 /* Main.storyboard */; };
+		A2347738214576CD00877324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2347737214576CD00877324 /* Assets.xcassets */; };
+		A234773B214576CD00877324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2347739214576CD00877324 /* LaunchScreen.storyboard */; };
+		A234774C21457E5B00877324 /* Paloseco-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A234774721457E5B00877324 /* Paloseco-Light.ttf */; };
+		A234774D21457E5B00877324 /* Paloseco-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A234774821457E5B00877324 /* Paloseco-Medium.ttf */; };
+		A234774E21457E5B00877324 /* Paloseco-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A234774921457E5B00877324 /* Paloseco-MediumItalic.ttf */; };
+		A234774F21457E5B00877324 /* Follow-The-Light-DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = A234774A21457E5B00877324 /* Follow-The-Light-DEMO.otf */; };
+		A234775021457E5B00877324 /* Paloseco-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A234774B21457E5B00877324 /* Paloseco-LightItalic.ttf */; };
+		A2347754214581A100877324 /* ka1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2347753214581A100877324 /* ka1.ttf */; };
+		A23477562145834700877324 /* Handletterink.otf in Resources */ = {isa = PBXBuildFile; fileRef = A23477552145834700877324 /* Handletterink.otf */; };
+		A23477582145ABD400877324 /* GameMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = A23477572145ABD400877324 /* GameMenu.sks */; };
+		A234775A2145AD7100877324 /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23477592145AD7100877324 /* GameMenu.swift */; };
+		A2855C9E214EF496005DB063 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2855C9D214EF496005DB063 /* GameScene.sks */; };
+		A2855CA0214EF4AC005DB063 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2855C9F214EF4AC005DB063 /* GameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A21021D421BC5013006DDFD1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A22B0D93215045D700EB6533 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		A22B0D952150461B00EB6533 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A2347727214576CA00877324 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A234772A214576CA00877324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2347732214576CB00877324 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A2347735214576CB00877324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2347737214576CD00877324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A234773A214576CD00877324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A234773C214576CD00877324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A234774721457E5B00877324 /* Paloseco-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-Light.ttf"; sourceTree = "<group>"; };
+		A234774821457E5B00877324 /* Paloseco-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-Medium.ttf"; sourceTree = "<group>"; };
+		A234774921457E5B00877324 /* Paloseco-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A234774A21457E5B00877324 /* Follow-The-Light-DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Follow-The-Light-DEMO.otf"; sourceTree = "<group>"; };
+		A234774B21457E5B00877324 /* Paloseco-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paloseco-LightItalic.ttf"; sourceTree = "<group>"; };
+		A23477512145801300877324 /* pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixel.ttf; sourceTree = "<group>"; };
+		A23477522145809A00877324 /* 8-BIT-WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT-WONDER.TTF"; sourceTree = "<group>"; };
+		A2347753214581A100877324 /* ka1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ka1.ttf; sourceTree = "<group>"; };
+		A23477552145834700877324 /* Handletterink.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Handletterink.otf; sourceTree = "<group>"; };
+		A23477572145ABD400877324 /* GameMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMenu.sks; sourceTree = "<group>"; };
+		A23477592145AD7100877324 /* GameMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenu.swift; sourceTree = "<group>"; };
+		A2855C9D214EF496005DB063 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A2855C9F214EF4AC005DB063 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2347724214576CA00877324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A234771E214576CA00877324 = {
+			isa = PBXGroup;
+			children = (
+				A2347729214576CA00877324 /* Snake */,
+				A2347728214576CA00877324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2347728214576CA00877324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2347727214576CA00877324 /* Snake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2347729214576CA00877324 /* Snake */ = {
+			isa = PBXGroup;
+			children = (
+				A234774621457DD500877324 /* fonts */,
+				A234772A214576CA00877324 /* AppDelegate.swift */,
+				A2347732214576CB00877324 /* GameViewController.swift */,
+				A2347734214576CB00877324 /* Main.storyboard */,
+				A23477572145ABD400877324 /* GameMenu.sks */,
+				A23477592145AD7100877324 /* GameMenu.swift */,
+				A2347737214576CD00877324 /* Assets.xcassets */,
+				A2347739214576CD00877324 /* LaunchScreen.storyboard */,
+				A234773C214576CD00877324 /* Info.plist */,
+				A2855C9D214EF496005DB063 /* GameScene.sks */,
+				A2855C9F214EF4AC005DB063 /* GameScene.swift */,
+				A22B0D93215045D700EB6533 /* GameOverScene.sks */,
+				A22B0D952150461B00EB6533 /* GameOverScene.swift */,
+				A21021D421BC5013006DDFD1 /* Constants.swift */,
+			);
+			path = Snake;
+			sourceTree = "<group>";
+		};
+		A234774621457DD500877324 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A23477552145834700877324 /* Handletterink.otf */,
+				A2347753214581A100877324 /* ka1.ttf */,
+				A23477522145809A00877324 /* 8-BIT-WONDER.TTF */,
+				A23477512145801300877324 /* pixel.ttf */,
+				A234774A21457E5B00877324 /* Follow-The-Light-DEMO.otf */,
+				A234774721457E5B00877324 /* Paloseco-Light.ttf */,
+				A234774B21457E5B00877324 /* Paloseco-LightItalic.ttf */,
+				A234774821457E5B00877324 /* Paloseco-Medium.ttf */,
+				A234774921457E5B00877324 /* Paloseco-MediumItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2347726214576CA00877324 /* Snake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A234773F214576CD00877324 /* Build configuration list for PBXNativeTarget "Snake" */;
+			buildPhases = (
+				A2347723214576CA00877324 /* Sources */,
+				A2347724214576CA00877324 /* Frameworks */,
+				A2347725214576CA00877324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snake;
+			productName = Snake;
+			productReference = A2347727214576CA00877324 /* Snake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A234771F214576CA00877324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Guillaume Robin";
+				TargetAttributes = {
+					A2347726214576CA00877324 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = A2347722214576CA00877324 /* Build configuration list for PBXProject "Snake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A234771E214576CA00877324;
+			productRefGroup = A2347728214576CA00877324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2347726214576CA00877324 /* Snake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2347725214576CA00877324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2347736214576CB00877324 /* Main.storyboard in Resources */,
+				A22B0D94215045D700EB6533 /* GameOverScene.sks in Resources */,
+				A23477562145834700877324 /* Handletterink.otf in Resources */,
+				A234774F21457E5B00877324 /* Follow-The-Light-DEMO.otf in Resources */,
+				A234774D21457E5B00877324 /* Paloseco-Medium.ttf in Resources */,
+				A2855C9E214EF496005DB063 /* GameScene.sks in Resources */,
+				A234775021457E5B00877324 /* Paloseco-LightItalic.ttf in Resources */,
+				A234774E21457E5B00877324 /* Paloseco-MediumItalic.ttf in Resources */,
+				A234774C21457E5B00877324 /* Paloseco-Light.ttf in Resources */,
+				A2347738214576CD00877324 /* Assets.xcassets in Resources */,
+				A2347754214581A100877324 /* ka1.ttf in Resources */,
+				A23477582145ABD400877324 /* GameMenu.sks in Resources */,
+				A234773B214576CD00877324 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2347723214576CA00877324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22B0D962150461B00EB6533 /* GameOverScene.swift in Sources */,
+				A234775A2145AD7100877324 /* GameMenu.swift in Sources */,
+				A2347733214576CB00877324 /* GameViewController.swift in Sources */,
+				A2855CA0214EF4AC005DB063 /* GameScene.swift in Sources */,
+				A234772B214576CB00877324 /* AppDelegate.swift in Sources */,
+				A21021D521BC5013006DDFD1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2347734214576CB00877324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2347735214576CB00877324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2347739214576CD00877324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A234773A214576CD00877324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A234773D214576CD00877324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A234773E214576CD00877324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2347740214576CD00877324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UREX97GBEF;
+				INFOPLIST_FILE = Snake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumerobin.Snake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2347741214576CD00877324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UREX97GBEF;
+				INFOPLIST_FILE = Snake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumerobin.Snake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2347722214576CA00877324 /* Build configuration list for PBXProject "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A234773D214576CD00877324 /* Debug */,
+				A234773E214576CD00877324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A234773F214576CD00877324 /* Build configuration list for PBXNativeTarget "Snake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2347740214576CD00877324 /* Debug */,
+				A2347741214576CD00877324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A234771F214576CA00877324 /* Project object */;
+}
